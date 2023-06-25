@@ -1,6 +1,6 @@
 {
   "name": "node-gio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "C++ libgio utility for node",
   "main": "./build/Release/gio",
   "dependencies": {
