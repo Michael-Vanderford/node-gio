@@ -101,6 +101,6 @@
     "gio"
   ],
   "author": "Michael Vanderford",
-  "license": "ISC",
+  "license": "GPLv3",
   "gypfile": true
 }

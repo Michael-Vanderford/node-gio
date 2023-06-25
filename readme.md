@@ -5,6 +5,13 @@
     Note: This is written specifically for use in Electron but it should also work in a node application.
 </p>
 
+<h2>Preamble</h2>
+<p>
+    This module will only work on linux. It is built using the libgio header library that is part of the Gnome Desktop.
+
+    Please know what you are doing as this library works with your file system. If you delete your files there is no safety net for recovery.
+</p>
+
 <h2>Installation</h2>
 <p>
     npm i --save node-gio
@@ -14,10 +21,10 @@
 
 <p>
     thumbnail - create a thumbnail of a image file<br>
-    open_with - returns a list of application associated with a selected file.<br>
-    exists - checks if file exists<br>
+    open_with - returns a list of application associated with a file.<br>
+    exists - checks if a file exists<br>
     get_file - returns a javascript object of attributes associated with a file<br>
-    ls - returns a javascript array of files and their attributes<br>
+    ls - returns a javascript array of Directories and files and their attributes<br>
     mkdir - creates a new directory<br>
     cp - copies a file<br>
     mv - moves a file<br>
