@@ -1,66 +1,68 @@
-cmd_Release/obj.target/gio/src/gio.o := g++ -o Release/obj.target/gio/src/gio.o ../src/gio.cc '-DNODE_GYP_MODULE_NAME=gio' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DELECTRON_ENSURE_CONFIG_GYPI' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DUSING_ELECTRON_CONFIG_GYPI' '-DV8_COMPRESS_POINTERS' '-DV8_COMPRESS_POINTERS_IN_SHARED_CAGE' '-DV8_ENABLE_SANDBOX' '-DV8_31BIT_SMIS_ON_64BIT_ARCH' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DOPENSSL_NO_ASM' '-DNAN_MODULE_WORKER_ENABLED' '-DBUILDING_NODE_EXTENSION' -I/home/michael/.cache/node-gyp/24.6.0/include/node -I/home/michael/.cache/node-gyp/24.6.0/src -I/home/michael/.cache/node-gyp/24.6.0/deps/openssl/config -I/home/michael/.cache/node-gyp/24.6.0/deps/openssl/openssl/include -I/home/michael/.cache/node-gyp/24.6.0/deps/uv/include -I/home/michael/.cache/node-gyp/24.6.0/deps/zlib -I/home/michael/.cache/node-gyp/24.6.0/deps/v8/include -I/usr/include/glib-2.0 -I/usr/include/gdk-pixbuf-2.0 -I../node_modules/nan  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -lglib-2.0 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++17 -MMD -MF ./Release/.deps/Release/obj.target/gio/src/gio.o.d.raw   -c
+cmd_Release/obj.target/gio/src/gio.o := g++ -o Release/obj.target/gio/src/gio.o ../src/gio.cc '-DNODE_GYP_MODULE_NAME=gio' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DELECTRON_ENSURE_CONFIG_GYPI' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DUSING_ELECTRON_CONFIG_GYPI' '-DV8_COMPRESS_POINTERS' '-DV8_COMPRESS_POINTERS_IN_SHARED_CAGE' '-DV8_ENABLE_SANDBOX' '-DV8_31BIT_SMIS_ON_64BIT_ARCH' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DOPENSSL_NO_ASM' '-DNAN_MODULE_WORKER_ENABLED' '-DBUILDING_NODE_EXTENSION' -I/home/michael/.cache/node-gyp/25.6.0/include/node -I/home/michael/.cache/node-gyp/25.6.0/src -I/home/michael/.cache/node-gyp/25.6.0/deps/openssl/config -I/home/michael/.cache/node-gyp/25.6.0/deps/openssl/openssl/include -I/home/michael/.cache/node-gyp/25.6.0/deps/uv/include -I/home/michael/.cache/node-gyp/25.6.0/deps/zlib -I/home/michael/.cache/node-gyp/25.6.0/deps/v8/include -I/usr/include/glib-2.0 -I/usr/include/gdk-pixbuf-2.0 -I../node_modules/nan  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -lglib-2.0 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++17 -MMD -MF ./Release/.deps/Release/obj.target/gio/src/gio.o.d.raw   -c
 Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_version.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv/errno.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv/version.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv/unix.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv/threadpool.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/uv/linux.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/cppgc/common.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8config.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-array-buffer.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-local-handle.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-internal.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-version.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8config.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-object.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-maybe.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-persistent-handle.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-weak-callback-info.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-primitive.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-data.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-value.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-traced-handle.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-container.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-context.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-snapshot.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-date.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-debug.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-script.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-message.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-exception.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-extension.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-external.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-function.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-function-callback.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-template.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-memory-span.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-initialization.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-callbacks.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-promise.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-isolate.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-embedder-heap.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-microtask.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-statistics.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-unwinder.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-embedder-state-scope.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-platform.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-json.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-locker.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-microtask-queue.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-primitive-object.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-proxy.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-regexp.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-typed-array.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-value-serializer.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/v8-wasm.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_version.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_buffer.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_object_wrap.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_version.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv/errno.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv/version.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv/unix.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv/threadpool.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/uv/linux.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/cppgc/common.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8config.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-array-buffer.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-local-handle.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-handle-base.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-internal.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-version.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8config.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-object.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-maybe.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-persistent-handle.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-weak-callback-info.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-primitive.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-data.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-value.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-traced-handle.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-container.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-context.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-snapshot.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-date.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-debug.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-script.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-callbacks.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-promise.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-message.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-exception.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-extension.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-external.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-function.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-function-callback.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-template.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-memory-span.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-initialization.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-isolate.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-embedder-heap.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-microtask.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-statistics.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-unwinder.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-embedder-state-scope.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-platform.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-source-location.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-json.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-locker.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-microtask-queue.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-primitive-object.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-proxy.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-regexp.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-typed-array.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-value-serializer.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/v8-wasm.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_version.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_buffer.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_object_wrap.h \
  ../node_modules/nan/nan_callbacks.h \
  ../node_modules/nan/nan_callbacks_12_inl.h \
  ../node_modules/nan/nan_maybe_43_inl.h \
@@ -73,10 +75,10 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  ../node_modules/nan/nan_private.h \
  ../node_modules/nan/nan_typedarray_contents.h \
  ../node_modules/nan/nan_json.h ../node_modules/nan/nan_scriptorigin.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_api.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/js_native_api.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/js_native_api_types.h \
- /home/michael/.cache/node-gyp/24.6.0/include/node/node_api_types.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_api.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/js_native_api.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/js_native_api_types.h \
+ /home/michael/.cache/node-gyp/25.6.0/include/node/node_api_types.h \
  /usr/include/glib-2.0/gio/gio.h /usr/include/glib-2.0/gio/giotypes.h \
  /usr/include/glib-2.0/gio/gioenums.h /usr/include/glib-2.0/glib-object.h \
  /usr/include/glib-2.0/gobject/gbinding.h /usr/include/glib-2.0/glib.h \
@@ -84,7 +86,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
- /usr/include/glib-2.0/glib/glib-visibility.h \
  /usr/include/glib-2.0/glib/garray.h \
  /usr/include/glib-2.0/glib/gasyncqueue.h \
  /usr/include/glib-2.0/glib/gthread.h \
@@ -115,7 +116,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/glib/gmain.h /usr/include/glib-2.0/glib/gpoll.h \
  /usr/include/glib-2.0/glib/gslist.h /usr/include/glib-2.0/glib/gstring.h \
  /usr/include/glib-2.0/glib/gunicode.h \
- /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gkeyfile.h \
  /usr/include/glib-2.0/glib/gmappedfile.h \
  /usr/include/glib-2.0/glib/gmarkup.h \
@@ -123,7 +123,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/glib/gvariant.h \
  /usr/include/glib-2.0/glib/gvarianttype.h \
  /usr/include/glib-2.0/glib/goption.h \
- /usr/include/glib-2.0/glib/gpathbuf.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
@@ -136,6 +135,7 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/glib/gsequence.h \
  /usr/include/glib-2.0/glib/gshell.h /usr/include/glib-2.0/glib/gslice.h \
  /usr/include/glib-2.0/glib/gspawn.h \
+ /usr/include/glib-2.0/glib/gstrfuncs.h \
  /usr/include/glib-2.0/glib/gstringchunk.h \
  /usr/include/glib-2.0/glib/gstrvbuilder.h \
  /usr/include/glib-2.0/glib/gtestutils.h \
@@ -153,7 +153,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/gobject/gobject.h \
  /usr/include/glib-2.0/gobject/gtype.h \
- /usr/include/glib-2.0/gobject/gobject-visibility.h \
  /usr/include/glib-2.0/gobject/gvalue.h \
  /usr/include/glib-2.0/gobject/gparam.h \
  /usr/include/glib-2.0/gobject/gclosure.h \
@@ -172,7 +171,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/gobject/gvaluearray.h \
  /usr/include/glib-2.0/gobject/gvaluetypes.h \
  /usr/include/glib-2.0/gobject/gobject-autocleanups.h \
- /usr/include/glib-2.0/gio/gio-visibility.h \
  /usr/include/glib-2.0/gio/gaction.h \
  /usr/include/glib-2.0/gio/gactiongroup.h \
  /usr/include/glib-2.0/gio/gactiongroupexporter.h \
@@ -249,7 +247,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/glib-2.0/gio/gsocketaddress.h \
  /usr/include/glib-2.0/gio/gioenumtypes.h \
  /usr/include/glib-2.0/gio/giomodule.h /usr/include/glib-2.0/gmodule.h \
- /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
  /usr/include/glib-2.0/gio/gioscheduler.h \
  /usr/include/glib-2.0/gio/glistmodel.h \
  /usr/include/glib-2.0/gio/gliststore.h \
@@ -339,67 +336,69 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
  /usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-autocleanups.h
 ../src/gio.cc:
 ../node_modules/nan/nan.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_version.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv/errno.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv/version.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv/unix.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv/threadpool.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/uv/linux.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/cppgc/common.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8config.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-array-buffer.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-local-handle.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-internal.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-version.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8config.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-object.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-maybe.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-persistent-handle.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-weak-callback-info.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-primitive.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-data.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-value.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-traced-handle.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-container.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-context.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-snapshot.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-date.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-debug.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-script.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-message.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-exception.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-extension.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-external.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-function.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-function-callback.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-template.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-memory-span.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-initialization.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-callbacks.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-promise.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-isolate.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-embedder-heap.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-microtask.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-statistics.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-unwinder.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-embedder-state-scope.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-platform.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-json.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-locker.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-microtask-queue.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-primitive-object.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-proxy.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-regexp.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-typed-array.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-value-serializer.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/v8-wasm.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_version.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_buffer.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_object_wrap.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_version.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv/errno.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv/version.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv/unix.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv/threadpool.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/uv/linux.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/cppgc/common.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8config.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-array-buffer.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-local-handle.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-handle-base.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-internal.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-version.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8config.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-object.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-maybe.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-persistent-handle.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-weak-callback-info.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-primitive.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-data.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-value.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-traced-handle.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-container.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-context.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-snapshot.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-date.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-debug.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-script.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-callbacks.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-promise.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-message.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-exception.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-extension.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-external.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-function.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-function-callback.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-template.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-memory-span.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-initialization.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-isolate.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-embedder-heap.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-microtask.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-statistics.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-unwinder.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-embedder-state-scope.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-platform.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-source-location.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-json.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-locker.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-microtask-queue.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-primitive-object.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-proxy.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-regexp.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-typed-array.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-value-serializer.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/v8-wasm.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_version.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_buffer.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_object_wrap.h:
 ../node_modules/nan/nan_callbacks.h:
 ../node_modules/nan/nan_callbacks_12_inl.h:
 ../node_modules/nan/nan_maybe_43_inl.h:
@@ -414,10 +413,10 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 ../node_modules/nan/nan_typedarray_contents.h:
 ../node_modules/nan/nan_json.h:
 ../node_modules/nan/nan_scriptorigin.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_api.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/js_native_api.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/js_native_api_types.h:
-/home/michael/.cache/node-gyp/24.6.0/include/node/node_api_types.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_api.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/js_native_api.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/js_native_api_types.h:
+/home/michael/.cache/node-gyp/25.6.0/include/node/node_api_types.h:
 /usr/include/glib-2.0/gio/gio.h:
 /usr/include/glib-2.0/gio/giotypes.h:
 /usr/include/glib-2.0/gio/gioenums.h:
@@ -429,7 +428,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h:
 /usr/include/glib-2.0/glib/gmacros.h:
 /usr/include/glib-2.0/glib/gversionmacros.h:
-/usr/include/glib-2.0/glib/glib-visibility.h:
 /usr/include/glib-2.0/glib/garray.h:
 /usr/include/glib-2.0/glib/gasyncqueue.h:
 /usr/include/glib-2.0/glib/gthread.h:
@@ -468,7 +466,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/glib/gslist.h:
 /usr/include/glib-2.0/glib/gstring.h:
 /usr/include/glib-2.0/glib/gunicode.h:
-/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gkeyfile.h:
 /usr/include/glib-2.0/glib/gmappedfile.h:
 /usr/include/glib-2.0/glib/gmarkup.h:
@@ -476,7 +473,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/glib/gvariant.h:
 /usr/include/glib-2.0/glib/gvarianttype.h:
 /usr/include/glib-2.0/glib/goption.h:
-/usr/include/glib-2.0/glib/gpathbuf.h:
 /usr/include/glib-2.0/glib/gpattern.h:
 /usr/include/glib-2.0/glib/gprimes.h:
 /usr/include/glib-2.0/glib/gqsort.h:
@@ -493,6 +489,7 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/glib/gshell.h:
 /usr/include/glib-2.0/glib/gslice.h:
 /usr/include/glib-2.0/glib/gspawn.h:
+/usr/include/glib-2.0/glib/gstrfuncs.h:
 /usr/include/glib-2.0/glib/gstringchunk.h:
 /usr/include/glib-2.0/glib/gstrvbuilder.h:
 /usr/include/glib-2.0/glib/gtestutils.h:
@@ -512,7 +509,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 /usr/include/glib-2.0/gobject/gobject.h:
 /usr/include/glib-2.0/gobject/gtype.h:
-/usr/include/glib-2.0/gobject/gobject-visibility.h:
 /usr/include/glib-2.0/gobject/gvalue.h:
 /usr/include/glib-2.0/gobject/gparam.h:
 /usr/include/glib-2.0/gobject/gclosure.h:
@@ -531,7 +527,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/gobject/gvaluearray.h:
 /usr/include/glib-2.0/gobject/gvaluetypes.h:
 /usr/include/glib-2.0/gobject/gobject-autocleanups.h:
-/usr/include/glib-2.0/gio/gio-visibility.h:
 /usr/include/glib-2.0/gio/gaction.h:
 /usr/include/glib-2.0/gio/gactiongroup.h:
 /usr/include/glib-2.0/gio/gactiongroupexporter.h:
@@ -610,7 +605,6 @@ Release/obj.target/gio/src/gio.o: ../src/gio.cc ../node_modules/nan/nan.h \
 /usr/include/glib-2.0/gio/gioenumtypes.h:
 /usr/include/glib-2.0/gio/giomodule.h:
 /usr/include/glib-2.0/gmodule.h:
-/usr/include/glib-2.0/gmodule/gmodule-visibility.h:
 /usr/include/glib-2.0/gio/gioscheduler.h:
 /usr/include/glib-2.0/gio/glistmodel.h:
 /usr/include/glib-2.0/gio/gliststore.h:
